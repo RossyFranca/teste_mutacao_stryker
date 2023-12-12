@@ -1,0 +1,10 @@
+export default {
+    presets: ["@babel/preset-env", {
+        targets: {
+          node: 'current'
+        }
+      }],
+    extensions: [".js", ".jsx", ".mjs", ".ts", ".tsx"],
+    "sourceType": "module"
+  };
+
